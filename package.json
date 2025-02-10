@@ -1,0 +1,23 @@
+{
+  "name": "degen_scraper",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "twitter": "node src/twitter/index.js"
+  },
+  "dependencies": {
+    "agent-twitter-client": "^0.0.13",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^12.3.2",
+    "ora": "^8.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tough-cookie": "^4.1.4"
+  }
+}
